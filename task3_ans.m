@@ -1,0 +1,10 @@
+num = [4 0];
+den = 1;
+W = tf(num,den);
+figure(1);
+bode(W);
+num = [1 0];
+den = 1;
+W = tf(num,den);
+figure(2);
+bode(W);
