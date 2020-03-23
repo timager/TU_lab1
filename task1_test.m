@@ -1,0 +1,12 @@
+den = 1;
+num1 = 12;
+num2 = 6;
+num3 = 24;
+W1 = tf(num1,den);
+W2 = tf(num2,den);
+W3 = tf(num3,den);
+figure(1);
+hold on;
+nyquist(W1);
+nyquist(W2);
+nyquist(W3);
