@@ -1,4 +1,3 @@
-% z1
 num = 1;
 den = 12;
 W = tf(num,den);
